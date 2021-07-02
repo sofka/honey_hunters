@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honey Hunters Тестовое задание</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/form.css" />
+    <link rel="stylesheet" href="style/comment.css" />
+    <link rel="stylesheet" href="style/social.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="#" class="logo">
+        <img src="img/logo.svg" alt="logo" />
+      </a>
+    </div>
+    <section>
+      <div class="img">
+        <img class="" src="img/letter.svg" alt="letter" />
+      </div>
+    </section>
+    <section>
+      <div class="wrapper">
+        <form class="form" name="addingComment">
+          <div class="form__block">
+            <label for="name" class="form__label">Имя</label>
+            <input type="text" name="name" class="form__input" required/>
+          </div>
+          <div class="form__block">
+            <label for="email" class="form__label">E-mail</label>
+            <input type="email" name="email" class="form__input" required/>
+          </div>
+          <div class="form__block form__block-left">
+            <label for="text" class="form__label">Комментарий</label>
+            <textarea class="form__text-area" name="text" required></textarea>
+          </div>
+          <div class="form__block form__block-button">
+            <button type="submit" class="form__button">Записать</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="comments">
+      <div class="wrapper">
+        <h1 class="comments-title">Выводим комментарии</h1>
+        <div id="commentsList" class="comments-list">
+          
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrapper">
+        <div class="footer">
+          <a href="#" class="logo">
+            <img src="img/logo.svg" alt="logo" />
+          </a>
+          <ul class="social">
+            <li class="social__item">
+              <a href="#"><img src="img/vk.png" alt="vk"/></a>
+            </li>
+            <li class="social__item">
+              <a href="#"><img src="img/facebook.png" alt="facebook"/></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase.js"></script>
+  <script  type="module" src="script/index.js"></script>
+
+
+    
+  </body>
+</html>

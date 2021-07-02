@@ -1,0 +1,10 @@
+.social {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.social__item {
+    text-decoration: none;
+}

@@ -1,0 +1,49 @@
+.comment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e9eef3;
+    color: #6d737b;
+    width: 670px;
+    min-height: 825px;
+    position: relative;
+    row-gap: 100px;
+}
+
+.comment--color{
+    background-color: #deebde;
+}
+
+.comment__title {
+    background-color: #4b596b;
+    color: #ffffff;
+    min-height: 150px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 68px;
+}
+
+.comment__title--color{
+    background-color: #58ad52;
+}
+
+.comment__email{
+    font-size: 68px;
+    font-weight: 700;
+}
+
+.comment__email--color{
+    color: #58ad52;
+}
+
+
+.comment__text {
+    color: #767582;
+    font-size: 60px;
+    word-wrap: break-word;
+}

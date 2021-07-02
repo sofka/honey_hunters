@@ -1,0 +1,49 @@
+body {
+    background-color: #2d3136;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    max-width: 2400px;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+}
+
+.wrapper {
+    max-width: 2400px;
+    margin-top: 0px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    position: relative;
+}
+
+.comments {
+    background-color: #f6f6f7;
+    min-height: 1500px;
+    align-items: center;
+}
+
+.comments-title {
+    color: #37414e;
+    padding-top: 280px;
+    text-align: center;
+    font-size: 86px;
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 275px;
+    column-gap: 120px;
+    row-gap: 130px;
+    flex-wrap: wrap;
+}
