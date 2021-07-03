@@ -5,7 +5,7 @@
     text-align: center;
     background-color: #e9eef3;
     color: #6d737b;
-    width: 670px;
+    width: 470px;
     min-height: 825px;
     position: relative;
     row-gap: 100px;
@@ -46,4 +46,4 @@
     color: #767582;
     font-size: 60px;
     word-wrap: break-word;
-}
+} 
