@@ -17,10 +17,13 @@ body {
     position: relative;
 }
 
+section{
+    min-width: 720px;
+}
+
 .comments {
     background-color: #f6f6f7;
     min-height: 1500px;
-    align-items: center;
 }
 
 .comments-title {
@@ -31,12 +34,6 @@ body {
 }
 
 .comments-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 275px;
-    column-gap: 120px;
-    row-gap: 130px;
-    flex-wrap: wrap;
-    margin-bottom: 4em;
+    max-width: 2400px;
+    min-width: 960px;
 }

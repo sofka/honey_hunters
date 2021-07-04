@@ -42,9 +42,9 @@
           <img class="img" src="img/letter.svg" alt="letter" />
         </div>
         <form class="row mt-4 mb-4 " name="addingComment">
-          <div class="col-xxl-6">
+          <div class="col-xxl-6 col-lg-6 col-md-6 col-sm-12">
             <div class="row form-group">
-              <div class="col-xl-12">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <label for="name" class="form-label form__label">Имя</label>
                 <input
                   type="text"
@@ -53,7 +53,7 @@
                   required
                 />
               </div>
-              <div class="col-xl-12">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <label for="email" class="form__label form-label">E-mail</label>
                 <input
                   type="email"
@@ -65,7 +65,7 @@
             </div>
           </div>
 
-          <div class="col-xxl-6">
+          <div class="col-xxl-6 col-lg-6 col-md-6 col-sm-12">
             <label for="text" class="form__label form-label">Комментарий</label>
             <textarea
               class="form-control form__text-area"
@@ -74,11 +74,12 @@
             ></textarea>
           </div>
           <div class="row mt-4 mb-4">
-            <div class="col-xxl-12">
-              <button type="submit" class="form__button btn float-end">Записать</button>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+              <button type="submit" class="form__button btn float-end">
+                Записать
+              </button>
             </div>
           </div>
-         
         </form>
       </div>
     </section>
@@ -87,9 +88,7 @@
         <div class="row mt-4 mb-4">
           <h1 class="comments-title">Выводим комментарии</h1>
         </div>
-        <div class="row mt-4 mb-4">
-          <div id="commentsList" class="comments-list"></div>
-        </div>
+        <div id="commentsList" class="row mt-4 mb-4 g-5  gy-5 comments-list"></div>
       </div>
     </section>
     <footer>

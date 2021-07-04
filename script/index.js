@@ -16,7 +16,7 @@ ref.orderByKey().on('child_added', function (snapshot) {
     const text = keys[3];
     const isColor = !(counter % 2);
     const markup =
-        `<div class="comment ${isColor ? "comment--color" : ""}" id="${comment[id]}">
+        `<div class="comment col-xxl-3 col-lg-3 col-md-3 col-sm-3 ${isColor ? "comment--color" : ""}" id="${comment[id]}">
             <div class="comment__title ${isColor ? "comment__title--color" : ""}">
             ${comment[name]}
             </div>

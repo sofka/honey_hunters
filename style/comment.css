@@ -5,10 +5,12 @@
     text-align: center;
     background-color: #e9eef3;
     color: #6d737b;
-    width: 470px;
+    min-width: 300px;
     min-height: 825px;
     position: relative;
     row-gap: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .comment--color{
@@ -22,6 +24,7 @@
     position: absolute;
     width: 100%;
     top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +38,8 @@
 .comment__email{
     font-size: 68px;
     font-weight: 700;
+    word-wrap: break-word;
+
 }
 
 .comment__email--color{
