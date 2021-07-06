@@ -31,8 +31,7 @@
     font-size: 60px;
 }
 
-.form__input:active, .form__text-area:active,
-.form__input:focus, .form__text-area:focus {
+.form__input:active, .form__text-area:active, .form__input:focus, .form__text-area:focus {
     background-color: #2f3136;
     color: #d7d7d7;
 }
@@ -46,4 +45,10 @@
     font-weight: 700;
     font-size: 72px;
     padding: 60px 70px;
+}
+
+@media screen and (max-width: 720px) {
+    .form__text-area {
+        height: 50%;
+    }
 }

@@ -5,8 +5,8 @@
     text-align: center;
     background-color: #e9eef3;
     color: #6d737b;
-    min-width: 300px;
-    min-height: 825px;
+    width: 300px;
+    height: 825px;
     position: relative;
     row-gap: 100px;
     margin-right: 50px;
